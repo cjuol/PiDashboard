@@ -1,0 +1,70 @@
+# ----------------------------------
+# Symfony
+# ----------------------------------
+
+/var/
+/vendor/
+/.env.local
+.env.test.local
+.env.*.local
+/phpunit.xml
+/phpunit.xml.dist
+/build/
+/node_modules/
+public/bundles/
+/config/secrets/prod/prod.decrypt.private.php
+
+# Ignorar binarios y datos temporales
+*.log
+*.cache
+*.lock
+
+# Symfony Encore
+/public/build/
+/assets/node_modules/
+
+# Doctrine
+*.sqlite
+*.sqlite3
+
+# Coverage y testing
+/coverage/
+/phpcov/
+/.cache/
+
+# ----------------------------------
+# JetBrains IDEs (PhpStorm, IntelliJ)
+# ----------------------------------
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ----------------------------------
+# OS-specific
+# ----------------------------------
+
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ----------------------------------
+# Composer
+# ----------------------------------
+
+/composer.lock
+/.composer/
+
+# ----------------------------------
+# PHPUnit
+# ----------------------------------
+
+/.phpunit.result.cache
+
+# ----------------------------------
+# Optional: personal scripts
+# ----------------------------------
+
+/scripts/dev-*.sh
